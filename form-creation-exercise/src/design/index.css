@@ -1,12 +1,13 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@theme {
+  --color-*: initial;
+  --color-white: #FFF;
+  --color-light-blue: #F2FAFE;
+  --color-medium-blue: #008CC3;
+  --color-dark-blue: #121063;
+  --color-pink: #EC83AD;
+  --color-yellow: #FDA200;
+  --font-display: "Nunito Sans", "sans-serif";
 }
-
-
